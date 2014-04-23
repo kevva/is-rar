@@ -1,0 +1,20 @@
+{
+  "name": "is-rar",
+  "version": "0.1.0",
+  "description": "Check if a Buffer/Uint8Array is a RAR file",
+  "license": "MIT",
+  "repo": "kevva/is-rar",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "keywords": [
+    "archive",
+    "buffer",
+    "check",
+    "detect",
+    "rar",
+    "type",
+    "uint8array"
+  ]
+}
