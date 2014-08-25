@@ -4,29 +4,20 @@
 
 ## Install
 
-```bash
+```sh
 $ npm install --save is-rar
-```
-
-```bash
-$ component install kevva/is-rar
-```
-
-```bash
-$ bower install --save is-rar
 ```
 
 ## Usage
 
 ```js
-var fs = require('fs');
 var isRar = require('is-rar');
-var buf = fs.readFileSync('foo.rar');
+var read = require('fs').readFileSync;
 
-isRar(buf);
+isRar(read('foo.rar'));
 // => true
 ```
 
 ## License
 
-MIT © [Kevin Mårtensson](https://github.com/kevva)
+[MIT License](http://en.wikipedia.org/wiki/MIT_License) © [Kevin Mårtensson](https://github.com/kevva)
