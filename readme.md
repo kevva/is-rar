@@ -2,11 +2,13 @@
 
 > Check if a Buffer/Uint8Array is a RAR file
 
+
 ## Install
 
-```sh
+```
 $ npm install --save is-rar
 ```
+
 
 ## Usage
 
@@ -17,6 +19,7 @@ var read = require('fs').readFileSync;
 isRar(read('foo.rar'));
 //=> true
 ```
+
 
 ## License
 
