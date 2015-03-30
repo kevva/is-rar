@@ -1,4 +1,4 @@
-# is-rar [![Build Status](http://img.shields.io/travis/kevva/is-rar/master.svg?style=flat))](https://travis-ci.org/kevva/is-rar)
+# is-rar [![Build Status](http://img.shields.io/travis/kevva/is-rar/master.svg?style=flat)](https://travis-ci.org/kevva/is-rar)
 
 > Check if a Buffer/Uint8Array is a RAR file
 
