@@ -13,8 +13,8 @@ $ npm install --save is-rar
 ## Usage
 
 ```js
-var isRar = require('is-rar');
 var read = require('fs').readFileSync;
+var isRar = require('is-rar');
 
 isRar(read('foo.rar'));
 //=> true

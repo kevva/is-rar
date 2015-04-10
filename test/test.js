@@ -1,9 +1,9 @@
 'use strict';
 
-var isRar = require('../');
 var path = require('path');
 var readChunk = require('read-chunk');
 var test = require('ava');
+var isRar = require('../');
 
 test('should detect RAR from buffer', function (t) {
 	t.plan(2);
